@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Montserrat,Verdana, Geneva, Tahoma, sans-serif;
+  src: local("Montserrat"), url(./typography/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+body #root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+}
+
+.mainPage{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+#signInPage{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(120deg, #030303 50%,#575757 100%);
+  padding-inline: 100px;
+}
+#logoContainer{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contextless{
+  width: fit-content;
+  height: fit-content;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  margin-right: 16px ;
+}
+#education{
+  width: fit-content;
+  height: fit-content;
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 12px;
+}
+#signInContainer{
+  width: 300px;
+  height: fit-content;
+}
+#signInLabel{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 200;
+  height: fit-content;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  color: white;
+}
+#signInForm{
+  width: 300px;
+  color: white;
+}
+#signInForm input{
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  padding-inline: 10px;
+  color: white;
+  background: rgba(115, 115, 115,0.2);
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+  font-size: 20px;
+  letter-spacing: 3px;
+ margin-bottom: 16px;
+}
+#signInBtn{
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background: #020202;
+  border-style: solid;
+  border-color: white;
+  outline: none;
+  font-size: 20px;
+  letter-spacing: 3px;
+ margin-bottom: 16px;
+}
+#registerPrompt{
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: white;
+}
+#registerPrompt a{
+  color: white;
+}
+.formSetup{
+  padding: 20px;
+  width: fit-content;
+  height: fit-content;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+.formSetup input{
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  padding-inline: 10px;
+  background: #333333;
+  color: white;
+  border-style: none;
+  outline: none;
+  border-radius: 5px;
+}
+.logoDisplaySection{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(110deg, black 40%,#575757 );
+}
+
+
