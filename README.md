@@ -1,6 +1,6 @@
 # Contextless Education
 
-This is a site is used to help me learn comp sci stuff and show my friends my progress as up to date as i can.
+This site is used to help me learn comp sci stuff and show my friends my progress as up to date as i can.
 
 ## Key Features
 
